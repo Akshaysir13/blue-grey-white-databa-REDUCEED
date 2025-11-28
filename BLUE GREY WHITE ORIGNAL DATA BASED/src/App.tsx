@@ -206,14 +206,8 @@ const initialTests: Test[] = [
   // ---------------- WHITE MOCK TESTS (1–8) ----------------
   { id: 'White Mock Test 1', name: 'White Mock Test 1', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(0, 50) },
   { id: 'White Mock Test 2', name: 'White Mock Test 2', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(50, 100) },
-  { id: 'White Mock Test 3', name: 'White Mock Test 3', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(100, 150) },
-  { id: 'White Mock Test 4', name: 'White Mock Test 4', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(150, 200) },
-  { id: 'White Mock Test 5', name: 'White Mock Test 5', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(200, 250) },
-  { id: 'White Mock Test 6', name: 'White Mock Test 6', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(250, 300) },
-  { id: 'White Mock Test 7', name: 'White Mock Test 7', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(300, 350) },
-  { id: 'White Mock Test 8', name: 'White Mock Test 8', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(350, 400) },
-
-    { id: 'Grey Mock Test 25', name: 'Grey Mock Test 25', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(2550, 2600) }
+  { id: 'White Mock Test 3', name: 'White Mock Test 3', description: 'Mock test based on Actual PYQ', duration: DEFAULT_TEST_DURATION, questions: sampleQuestions.slice(100, 150) }
+  
 
   // Add more initial tests as needed, manually defining the slice for each
 ];
